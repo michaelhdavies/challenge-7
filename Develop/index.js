@@ -70,13 +70,18 @@ const questions = [
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { };
+function writeToFile(fileName, data) {
+	fs.writeFile(fileName, data, (err) =>
+		err ? console.error(err) : console.log('File Saved')
+	)
+};
 
 // TODO: Create a function to initialize app
 function init() {
 	inquirer.prompt(questions).then((response) => {			// Inquire
 		console.log(response);
 		console.log(generateMarkdown(response));
+		writeToFile('README.md', generateMarkdown(response));
 		return(response);
 	})
 };
