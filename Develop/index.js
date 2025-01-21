@@ -11,6 +11,7 @@
 // TODO: Include packages needed for this application
 import fs from 'fs';
 import inquirer from 'inquirer';
+import generateMarkdown from './utils/generateMarkdown.js'
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -60,6 +61,11 @@ const questions = [
 		message: 'Please enter your email: ',
 		name: 'email',
 	},
+	{
+		type: 'input',
+		message: 'Please enter contact instructions: ',
+		name: 'contact',
+	}
 ];
 
 
@@ -70,8 +76,9 @@ function writeToFile(fileName, data) { };
 function init() {
 	inquirer.prompt(questions).then((response) => {			// Inquire
 		console.log(response);
-		return(response)}
-	)
+		console.log(generateMarkdown(response));
+		return(response);
+	})
 };
 
 // Function call to initialize app
