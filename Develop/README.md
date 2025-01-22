@@ -1,32 +1,34 @@
-# README Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+  # README Creator
 
   ## Description 
 
-  This application generates README files.
+  This application may be used to create a README.md file for any software project.
 
   ## Table of Contents
 
-  create function for this
+  MIT
 
   ## Installation
 
-  Load up the files, open Develop in terminal, npm i.
+  Install the files to a local directory, open the Develop folder an terminal, run the following commands: (1) npm i (2) node index.js
 
   ## Usage
 
-  node index.js to run application, follow prompts.
+  Respond to the prompts in terminal and check back in your directory for a newly generated README file containing the data from your responses.
 
   ## License
 
-  License 1
+  MIT
 
   ## Contributing
 
-  Please contribute through pull requests in GitHub. Good code may or may not be accepted by the review process and pulled into the main branch.
+  Contributions may be submitted via Pull Requests on GitHub. Functinal code may be merged into the main branch after the review proces is completed.
 
   ## Tests
 
-  Run the application and check the output to ensure functionality, run npm init if JSON is missing for any reason after nmp install.
+  Run the program to make sure it works and verify the output file. If problems arise, try running  npm init  , and then run the program again.
 
   ## Questions
 
@@ -34,4 +36,4 @@
 
   michael@methodtheatre.com
   
-  Please reach out to my personal email with any questions.
+  Contact me anytime!
