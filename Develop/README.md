@@ -33,7 +33,7 @@
 
   ## Tests
 
-  Run the program to make sure it works and verify the output file. If problems arise, check dependencies and file structure, and then run the program again.
+  Run the program to make sure it works and verify the output file. If problems arise, check dependencies and file structure, and then run the program again. index.js handles all the inquirer form logic, generateMarkdown.js handles the README formatting and file writing.
 
   Walkthrough Video: [Click Here](https://drive.google.com/file/d/129QSl5hUpP10SKyS2Qpi9IN7BtiFxQnE/view?usp=sharing)
 
