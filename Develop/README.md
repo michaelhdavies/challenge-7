@@ -33,11 +33,13 @@
 
   ## Tests
 
-  Run the program to make sure it works and verify the output file. If problems arise, try running  npm init  , and then run the program again.
+  Run the program to make sure it works and verify the output file. If problems arise, check dependencies and file structure, and then run the program again.
+
+  Walkthrough Video: [Click Here](https://drive.google.com/file/d/129QSl5hUpP10SKyS2Qpi9IN7BtiFxQnE/view?usp=sharing)
 
   ## Questions
   
-  Please contact the developer with any questions.
+  Please contact the dev with any questions!
 
   GitHub: [michaelhdavies](github.com/michaelhdavies)
 
