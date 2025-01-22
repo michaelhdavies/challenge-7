@@ -25,7 +25,7 @@
 
   ## License
 
-  This application is covered under the [MIT](https://opensource.org/licenses/MIT) license.
+  This application is covered under the MIT license.
 
   ## Contributing
 
@@ -44,5 +44,4 @@
   Email: [michael@methodtheatre.com](mailto:michael@methodtheatre.com)
 
   [Back to Top](#description)
-  
   

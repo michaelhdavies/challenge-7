@@ -1,14 +1,4 @@
 
-
-// 'Description: ',
-// 'Table of Contents: ',
-// 'Installation: ',
-// 'Usage: ',
-// 'License: ',
-// 'Contributing: ',
-// 'Tests: ',
-// 'Questions: ',
-
 // TODO: Include packages needed for this application
 import fs from 'fs';
 import inquirer from 'inquirer';
@@ -79,7 +69,7 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-	inquirer.prompt(questions).then((response) => {			// Inquire
+	inquirer.prompt(questions).then((response) => {
 		console.log(response);
 		console.log(generateMarkdown(response));
 		writeToFile('README.md', generateMarkdown(response));
