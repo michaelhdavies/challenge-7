@@ -39,7 +39,7 @@ const questions = [
 		type: 'list',
 		message: 'Please select a license from the following options: ',
 		name: 'license',
-		choices: ['License 1', 'License 2', 'License 3'],
+		choices: ['No License', 'Apache', 'Boost', 'MIT', 'Mozilla', 'Perl', 'SIL', 'Unlicense', 'WTFPL',],
 	},
 	{
 		type: 'input',
@@ -53,12 +53,12 @@ const questions = [
 	},
 	{
 		type: 'input',
-		message: 'Please enter your github username: ',
+		message: 'Please enter your GitHub username: ',
 		name: 'github',
 	},
 	{
 		type: 'input',
-		message: 'Please enter your email: ',
+		message: 'Please enter your Email: ',
 		name: 'email',
 	},
 	{
