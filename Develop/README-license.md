@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
-  # README GENERATOR
+  # README Creator
 
   ## Description 
 
@@ -8,16 +8,11 @@
 
   ## Table of Contents
 
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
+  MIT
 
   ## Installation
 
-  Install the files to a local directory, open the Develop folder in terminal, run the following commands: (1) npm i (2) node index.js
+  Install the files to a local directory, open the Develop folder an terminal, run the following commands: (1) npm i (2) node index.js
 
   ## Usage
 
@@ -25,7 +20,7 @@
 
   ## License
 
-  This application is covered under the MIT license.
+  MIT
 
   ## Contributing
 
@@ -36,12 +31,9 @@
   Run the program to make sure it works and verify the output file. If problems arise, try running  npm init  , and then run the program again.
 
   ## Questions
+
+  michaelhdavies
+
+  michael@methodtheatre.com
   
-  Please contact the developer with any questions.
-
-  GitHub: [michaelhdavies](github.com/michaelhdavies)
-
-  Email: [michael@methodtheatre.com](mailto:michael@methodtheatre.com)
-
-  [Back to Top](#description)
-  
+  Contact me anytime!
